@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: parkjunhyeon/popspace_back:null
+          image: parkjunhyeon/popspace_back:v1
           ports:
             - containerPort: 8080
           env:
