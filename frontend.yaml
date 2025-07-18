@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: parkjunhyeon/popspace_front:v1
+          image: parkjunhyeon/popspace_front:null
           imagePullPolicy: Always
           ports:
             - containerPort: 80
